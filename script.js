@@ -1,3 +1,5 @@
+// bananagrams
+
 const gameBoardSize = 101; // 21x21 grid must be odd number
 const playerTylesSize = 21; // 21 tiles for the player
 
