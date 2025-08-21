@@ -1,4 +1,4 @@
-#### Bananagrams
+### Bananagrams
 
 #Summary
 I created a single player banagrams game. The website to view it is https://perrshan.github.io/Bananagrams/.
