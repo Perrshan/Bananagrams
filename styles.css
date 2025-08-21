@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-image: url('Images/table-top.jpg');
+    background-size: cover; /* Cover the entire background */
+}
+
+#layout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* Center all children horizontally */
+    justify-content: center;  /* Center everything vertically in the page */
+}
+
+#selected-tyle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#player-tyle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#label {
+    font-size: small;  
+    padding-top: 30px;    /* Add some space between the label and the table */
+}
+
+.table {
+    margin: 10px 0;           /* Add spacing between the tables */
+}
+
+.table th, .table td {
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+.filled-cell {
+    background-image: url(Images/tyle.jpg);
+}
+
+.empty-cell {
+    background-color: transparent; /* Ensure empty cells have no background */
+    border: 2px dashed black; /* Optional: Add a border to empty cells */
+}
+
+#selected-tyle table th, #selected-tyle table td {
+    padding: 8px;
+    text-align: center;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+#player-tyles table th, #player-tyles table td {
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    background-image: url(Images/tyle.jpg);
+}
+
+#action-buttons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.action-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+}
+
+#bananas-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.bananas {
+  font-size: 40px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e7c607;
+  color: rgb(122, 41, 41);
+  cursor: pointer;
+  height: 100px;
+  width: 250px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 100px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    position: middle; /* Center the header text */
+    color: black; /* Ensure the header text is visible */
+    margin: 0; /* Remove default margin */
+    background-color: rgba(219, 205, 9, 0.801);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Optional: Add a subtle shadow for better visibility */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}

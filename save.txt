@@ -1,0 +1,14 @@
+for (let i = topMostRow; i <= bottomMostRow; i++) {
+            for (let j = leftMostColumn; j <= rightMostColumn; j++) {
+                const index = i * gameBoardSize + j;
+                const cell = document.getElementById(`cell-${index}`);
+
+                if (gameBoardGrid[index] === "") {
+                    cell.classList.remove("filled-cell");
+                    cell.classList.add("empty-cell");
+                } else {
+                    cell.classList.remove("empty-cell");
+                    cell.classList.add("filled-cell");
+                }
+            }
+        }
